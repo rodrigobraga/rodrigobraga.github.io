@@ -30,8 +30,8 @@ Ao buscar por uma alternativa (especialmente Plugins para jQuery)  encontrei vá
 
 Dada a realidade, não me restou outra alternativa, tive eu mesmo que programar o calendário perfeito para aquela situação (talvez só aquela) 
 
-Porém a ideia/motivação é aproveitar a necessidade e estudar um pouco mais sobre jQuery, resolvi criar um plugin; tarefa bastante simplificada graças ao (jQuery Boilerplate)[http://jqueryboilerplate.com/].
+Porém a ideia/motivação é aproveitar a necessidade e estudar um pouco mais sobre jQuery, resolvi criar um plugin; tarefa bastante simplificada graças ao [jQuery Boilerplate](http://jqueryboilerplate.com/).
 
-Se você puder dar uma olhada no (GitHub)[https://github.com/rodrigobraga/jQuery-Basic-Calendar] e opinar será interessante!
+Se você puder dar uma olhada no [GitHub](https://github.com/rodrigobraga/jQuery-Basic-Calendar) e opinar será interessante!
 
-E você pode vê-lo em ação (aqui)[/labs/jquery-basic-calendar].
+E você pode vê-lo em ação [aqui](/labs/jquery-basic-calendar).
