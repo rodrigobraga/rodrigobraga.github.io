@@ -1,0 +1,19 @@
+---
+layout: default
+title: home
+---
+
+<ul class="cbp_tmtimeline">
+	{% for post in site.posts %}
+	<li>
+		<time class="cbp_tmtime" datetime="{{ post.date}}"><span>{{ post.date  | date_to_string }}</span>
+		<span>{{ post.date | date: "%H:%M" }}</span></time>
+		<div class="cbp_tmicon cbp_tmicon-earth"></div>
+		<div class="cbp_tmlabel">
+			<h2>{{ post.title }}</h2>
+			<p>{{ post.description }}</p>
+			<a href="{{ post.url }}" class="read-more">leia mais</a>
+		</div>
+	</li>
+	{% endfor %}
+</ul>
