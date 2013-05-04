@@ -2,7 +2,7 @@
 layout: post 
 title: "Social Coding"
 date: "2011-07-14 12:00:00"
-categories: [carreira]
+categories: [carreira, dev]
 tags: [webinsider]
 summary: a certificação definitiva.
 ---
