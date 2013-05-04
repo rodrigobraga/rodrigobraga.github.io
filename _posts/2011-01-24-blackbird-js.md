@@ -9,7 +9,7 @@ summary: um logger simples e interessante para javascript.
 
 # Blackbird JS
 
-Depurar é caro e desgastante, isso é fato; atualmente muito do esforço desprendido para subir toda a pilha necessária para depurar situações específicas foi substituído por (Test-driven Development)[http://en.wikipedia.org/wiki/Test-driven_development], (Behavior Driven Development)[http://en.wikipedia.org/wiki/Behavior_Driven_Development] e afins, o que reflete também em um produto muito mais bem acabado e com um design arrojado.
+Depurar é caro e desgastante, isso é fato; atualmente muito do esforço desprendido para subir toda a pilha necessária para depurar situações específicas foi substituído por [TDD](http://pt.wikipedia.org/wiki/Tdd), [BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development) e afins, o que reflete também em um produto muito mais bem acabado e com um design arrojado.
 
 Mas tudo isso é assunto para outro dia.
 
