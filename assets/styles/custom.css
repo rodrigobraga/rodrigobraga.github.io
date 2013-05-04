@@ -1,6 +1,10 @@
 a {
-    color:#fff;
+    color: #696969;
 }
+
+    a.read-more {
+        color:#fff;
+    }
 
     a.back {
         color: #CECECE;
@@ -9,6 +13,10 @@ a {
 .container .clearfix a {
     font-style:normal;
     color:#CECECE;
+}
+
+img {
+    border: 0px;
 }
 
 .social {
