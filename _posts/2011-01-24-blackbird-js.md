@@ -21,7 +21,7 @@ Usar [TDD](http://www.infoq.com/articles/javascript-tdd) com javascript é uma a
 
 Pensando ainda apenas na depuração em si, uma ferramenta bastante útil e muito interessa é o [Blackbird JS](http://www.gscottolson.com/blackbirdjs)
 
-![Blackbird JS](rodrigobraga.github.io/assets/images/2011/blackbirdjs.png)
+![Blackbird JS](/assets/images/2011/blackbirdjs.png)
 
 O Blackbird permite acompanharmos através de um painel uma série de mensagens em relação à execução da aplicação, o seu uso é muito simples e prático, o exemplo é auto-explicativo e outras informações estão no [site oficial](http://www.gscottolson.com/blackbirdjs).
 
