@@ -1,0 +1,10 @@
+/* Basic Calendar Style
+ ----------------------------------------------------------- */
+.basiccal                           {border:0px solid #CECECE;text-align:center;width:300px;}
+.basiccal ul                        {width:100%;margin:0px;padding:0px;height:30px;list-style-type:none;}
+.basiccal ul:first-child li         {border:0;color:#729897;border:1px solid #fff;cursor:default;}
+.basiccal ul:first-child li:hover   {border:0px;color:#729897;border:1px solid #fff;cursor:default;}
+.basiccal ul li                     {border:1px solid #CECECE;display:inline;width:35px;display:inline-block;text-align:center;cursor:pointer;margin:2px;}
+.basiccal ul li:hover               {border:1px solid #729897;}
+.basiccal ul li.selected            {border:1px solid #CECECE;background-color:#F4F4F4;font-weight:bold;}
+.basiccal ul li.inactive            {background-color:#CECECE;cursor:default;}

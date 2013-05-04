@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+    <head>
+        <title>Basic Cal &mdash; a jQuery (plugin) Basic Calendar Widget</title>
+
+        <link href="basiccal.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            
+            /* styles for this page
+            ----------------------------------------------------------- */
+            body {font-family:"Trebuchet MS", Verdana, Arial;color:#696969;}
+
+            h1  {font-size:18px;}
+            h2  {font-size:16px;}
+            h3  {font-size:14px;}
+            p   {font-size:12px;}
+
+            a   {font-weight:bold;color:#696969;}
+            
+            input[type=text]    {height:30px;width:30px;text-align:center;}            
+            input[type=button]  {color:#696969;background:#fff;border:0px solid #F4F4F4;cursor:pointer;}
+            select              {height:35px;padding:2px;font-size:14px;}            
+            hr                  {border:1px solid #F4F4F4;}
+            
+            #demo               {border:0px solid #F4F4F4;width:100%;padding:10px;}
+            
+            pre                 {border:1px solid #CECECE;background:#F0F0F0;padding:15px;}
+        </style>
+
+    </head>
+    <body onload="prettyPrint()">
+
+        <h1>jQuery Basic Calendar Widget</h1>
+
+        <h2>sobre</h2>
+
+        <p><strong>jQuery Basic Cal</strong> é um calendário <em>inline</em> BASTANTE simples e minimalista; criando para fins de estudos com ajuda do <a href="http://jqueryboilerplate.com/">jQuery Boilerplate</a>.</p>
+
+        <p><em>* depende do jQuery Template</em></p>
+
+        <h2>como usar</h2>
+
+        <h3>javascript</h3>
+
+        <pre class="prettyprint lang-js linenums:1">
+var calendar = new $.BasicCal($('#calendar'));
+
+// ou
+
+var calendar = new $.BasicCal(
+    $('#calendar'),
+    {   Date: new Date(),
+        highlightCurrentDay: true,
+        highlightBlankDays: true,
+        Header: {
+            'sun': 'dom',
+            'mon': 'seg',
+            'tue': 'ter',
+            'wed': 'qua',
+            'thu': 'qui',
+            'fri': 'sex',
+            'sat': 'sab'
+        },
+        onDateClick : function() { alert('my function'); }
+    }
+);
+
+calendar.PreviousDay(); // ou PreviousMonth
+
+calendar.Today();
+
+calendar.NextDay();     // ou NextMonth
+
+calendar.JumpToDate(new Date());
+
+calendar.GetDateOnCalendar();
+        </pre>
+
+        <h3>estilo</h3>
+
+        <pre class="prettyprint css linenums:1">
+/* Basic Calendar Style
+----------------------------------------------------------- */
+.basiccal                           {border:0px solid #CECECE;text-align:center;width:300px;}
+.basiccal ul                        {width:100%;margin:0px;padding:0px;height:30px;list-style-type:none;}
+.basiccal ul:first-child li         {border:0;color:#729897;border:1px solid #fff;cursor:default;}
+.basiccal ul:first-child li:hover   {border:0px;color:#729897;border:1px solid #fff;cursor:default;}
+.basiccal ul li                     {border:1px solid #CECECE;display:inline;width:35px;display:inline-block;text-align:center;cursor:pointer;margin:2px;}
+.basiccal ul li:hover               {border:1px solid #729897;}
+.basiccal ul li.selected            {border:1px solid #CECECE;background-color:#F4F4F4;font-weight:bold;}
+.basiccal ul li.inactive            {background-color:#CECECE;cursor:default;}
+        </pre>
+
+        <h3>demonstração</h3>
+
+        <div id="demo">
+
+            <label for="Day">dia</label>
+            <input type="text" id="Day" readonly="readeonly" />
+
+            <label for="Month">mês</label>
+            <select id="Month" name="Month">
+                <option value="0">janeiro</option>
+                <option value="1">fevereiro</option>
+                <option value="2">março</option>
+                <option value="3">abril</option>
+                <option value="4">maio</option>
+                <option value="5">junho</option>
+                <option value="6">julho</option>
+                <option value="7">agosto</option>
+                <option value="8">setembro</option>
+                <option value="9">outubro</option>
+                <option value="10">novembro</option>
+                <option value="11">dezembro</option>
+            </select>
+
+            <label for="Year">ano</label>
+            <select id="Year" name="Year"></select>
+
+            <hr />
+
+            <div id="calendar"></div>
+
+            <hr />
+
+            <input id="pDay" type="button" value="anterior" />
+            <input id="today" type="button" value="hoje" />
+            <input id="nDay" type="button" value="próximo" />
+        </div>
+        
+        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+        <script type="text/javascript" src="jquery.basiccal.js"></script>
+
+        <script type="text/javascript">
+
+            var calendar = null;
+
+            $(document).ready(function () {
+
+                //
+                var current_date = new Date(),
+                    year = current_date.getFullYear();
+
+                for (var i = year - 1; i <= year + 1; i++) {
+                    $('#Year').append('<option value=' + i + '>' + i + '</option>');
+                }
+
+                //
+                calendar = new $.BasicCal($('#calendar'), { onDateClick: ShowDateFromCalendar });
+
+                ShowDateFromCalendar();
+
+                $('#pDay').click(function () {
+                    calendar.PreviousDay();
+                });
+
+                $('#pMonth').click(function () {
+                    calendar.PreviousMonth();
+                });
+
+                $('#today').click(function () {
+                    calendar.Today();
+                });
+
+                $('#nDay').click(function () {
+                    calendar.NextDay();
+                });
+
+                $('#nMonth').click(function () {
+                    calendar.NextMonth();
+                });
+
+                $('#Month, #Year').change(function () {
+                    var _date = new Date($('#Year').val(), $('#Month').val(), $('#Day').val());
+                    calendar.JumpToDate(_date);
+                });
+
+                $('#pDay, #pMonth, #today, #nDay, #nMonth').click(ShowDateFromCalendar);
+
+            });
+
+            function ShowDateFromCalendar() {
+
+                var _temp = calendar.GetDateFromCalendar();
+
+                $('#Day').val(_temp.getDate());
+                $('#Month').val(_temp.getMonth());
+                $('#Year').val(_temp.getFullYear());
+            }
+        </script>
+        
+    </body>
+</html>
