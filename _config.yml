@@ -2,3 +2,5 @@ lsi: false
 pygments: true
 comments: true
 markdown: redcarpet
+url: "http://www.rbraga.com"
+permalink: pretty
