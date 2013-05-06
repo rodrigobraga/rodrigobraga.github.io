@@ -5,6 +5,7 @@ date: "2011-09-25 12:00:00"
 categories: [labs, dev]
 tags: [javascript, jquery]
 summary:  um calendário inline BASTANTE simples e minimalista; criando para fins de estudos com ajuda do jQuery Boilerplate.
+comments: true
 ---
 
 # jQuery Basic Calendar
