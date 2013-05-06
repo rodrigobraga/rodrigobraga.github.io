@@ -5,7 +5,7 @@ date: "2011-07-14 12:00:00"
 categories: [carreira, dev]
 tags: [webinsider]
 summary: a certificação definitiva.
-comments: true
+comments: false
 ---
 
 # Social Coding
