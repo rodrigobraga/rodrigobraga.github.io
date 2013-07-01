@@ -4,4 +4,4 @@ Minha experiência com econômia e finanças é muito limitada infelizmente; por
 
 Resolvi fazer um esforço e começar a usar um aplicativo para acompanhar os meus gastos; e comecei a usar o [Organizze](https://www.organizze.com.br).
 
-Leva algum tempo (dois ou três meses) até você ter uma massa de dados que possa lhe dar alguma resposta interessante, mas vale a pena esperar; acabei descobrindo que alguns pequenos gastos passavem desapercebidos, mas que no montante final acabvam sendo sacrificantes.
+Leva algum tempo (dois ou três meses) até você ter uma massa de dados que possa lhe dar alguma resposta interessante, mas vale a pena esperar; acabei descobrindo que alguns pequenos gastos passavam desapercebidos, mas que no saldo final acabvam sendo sacrificantes.
