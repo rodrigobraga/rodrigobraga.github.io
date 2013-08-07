@@ -1,0 +1,21 @@
+{
+  "name": "rodrigobraga.github.io",
+  "version": "1.0.0",
+  "description": "jekyll template for my blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rodrigobraga/rodrigobraga.github.io.git"
+  },
+  "keywords": [
+    "blog", "jekyll"
+  ],
+  "author": "rodrigo braga",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/rodrigobraga/rodrigobraga.github.io/issues"
+  }
+}

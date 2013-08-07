@@ -1,3 +1,5 @@
 *.swp
 _site/
 _drafts/
+node_modules/
+bower_components/
