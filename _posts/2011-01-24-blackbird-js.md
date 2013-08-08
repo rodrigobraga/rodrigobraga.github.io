@@ -5,6 +5,7 @@ date: "2011-01-24 12:00:00"
 categories: [dev]
 tags: [javascript]
 summary: um logger simples e interessante para javascript.
+comments: true
 ---
 
 # Blackbird JS

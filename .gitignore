@@ -1,3 +1,2 @@
-*.swp
-_site/
-_drafts/
+/node_modules/
+/_site/
