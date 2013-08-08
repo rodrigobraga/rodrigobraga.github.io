@@ -1,1 +1,0 @@
-# jekyll template for my blog
