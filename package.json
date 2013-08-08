@@ -11,11 +11,17 @@
     "url": "git://github.com/rodrigobraga/rodrigobraga.github.io.git"
   },
   "keywords": [
-    "blog", "jekyll"
+    "blog",
+    "jekyll"
   ],
   "author": "rodrigo braga",
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/rodrigobraga/rodrigobraga.github.io/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib": "~0.7.0",
+    "bower": "0.10.0"
   }
 }
