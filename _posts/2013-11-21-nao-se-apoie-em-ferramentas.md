@@ -20,4 +20,10 @@ Com times ou integrantes remotos, usar uma ferramenta torna-se inevitável, por�
 
 Eu particiei de *alguns* projetos cujo o desenvolvimento estava fundamentado no [modelo em cascata](http://pt.wikipedia.org/wiki/Modelo_em_cascata) e mais recentemente de projetos onde a gestão do mesmo ganhava também o selo do [PMI](http://www.pmi.org); e de forma genérica, era comum todas as pessoas se agarrarem justamente nos **processos** e **ferramentas** para justificar qualquer problema.
 
-Por motivos já discutidos á exaustão pela comunidade ao redor do mundo, ao seguir esse caminho, **falhar** é praticamente uma certeza, e ao deparar-se com este fato, tentar se proteger alegando que usou todas as ferramentas *main stream* e seguiu a risca todos os processos parece ser a saída comum.
+Por motivos já discutidos á exaustão pela comunidade ao redor do mundo, projetos **falham**. Ao deparar-se com este fato, tentar se proteger alegando que usou todas as ferramentas disponíveis e seguiu a risca todos os processos, parece ser a saída comum.
+
+## lidando com a falha
+
+O movimento ágil sugere *ciclos curtos* para mimizar as falhas ou até mesmo evitá-las; mas falhar é sempre plausível.
+
+##
