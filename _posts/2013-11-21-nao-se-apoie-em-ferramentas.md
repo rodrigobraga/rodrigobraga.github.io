@@ -20,8 +20,18 @@ Com times ou integrantes remotos, usar uma ferramenta torna-se inevitável, por�
 
 Eu particiei de *alguns* projetos cujo o desenvolvimento estava fundamentado no [modelo em cascata](http://pt.wikipedia.org/wiki/Modelo_em_cascata) e mais recentemente de projetos onde a gestão do mesmo ganhava também o selo do [PMI](http://www.pmi.org); e de forma genérica, era comum todas as pessoas se agarrarem justamente nos **processos** e **ferramentas** para justificar qualquer problema.
 
-Por motivos já discutidos á exaustão pela comunidade ao redor do mundo, projetos **falham**. Ao deparar-se com este fato, tentar se proteger alegando que usou todas as ferramentas disponíveis e seguiu a risca todos os processos, parece ser a saída comum.
+Por motivos já discutidos à exaustão pela comunidade ao redor do mundo, projetos **falham**. Ao deparar-se com este fato, tentar se proteger alegando que usou todas as ferramentas disponíveis e seguiu a risca todos os processos, parece ser a saída comum.
 
-## não cometa esse erro
+### retroceder nunca, render-se jamais
 
-O movimento ágil sugere *ciclos curtos* para mimizar as falhas ou até mesmo evitá-las; mas falhar é sempre plausível.
+**Transparência**, **inspeção** e **adaptação**. Este pilares podem guiá-lo por estratadas bem menos tortuosas; mas o mundo é cruel e vai pressioná-lo.
+
+Muitas empresas que adotaram Agilidade, são na verdade oriundas de uma época anterior e com inúmeras características profundamente enrraizadas; não se pode mudar cultura e valores de uma tacada só, é preciso ir por partes e isso consome bastante tempo e energia.
+
+Mantenha-se firme.
+
+### em caso de falhas, a culpa é sempre sua
+
+Algumas ferramentas ganharam bastante notoriedade, como o [Trello](http://www.trello.com), mas existem inúmeras outras como o [Mingle](http://www.thoughtworks.com/products/mingle-agile-project-management) por exemplo, que valem a pena darmos uma olhada.
+
+Mesmo com auxílio de uma ferramenta, se alguma coisa der errado ou o projeto falhar miserávelmente, a culpa será **sempre** sua.
