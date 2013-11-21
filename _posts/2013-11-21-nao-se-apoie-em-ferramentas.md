@@ -16,5 +16,4 @@ Indivíduos e interações mais que processos e ferramentas
 
 Temos disponíveis inúmeras ferramentas que dão suporte ao desenvolvimento ágil, porém se mantivermos uma visão purista, talvez apenas o quadro (físico) seja realmente interessante ou até mesmo *vital*.
 
-
-
+Com times ou integrantes remotos, usar uma ferramenta torna-se inevitável, porém imagino que *essa ferramenta* não deva acrescentar qualquer burocracia, sob o risco de tornar o seu uso não natural.
