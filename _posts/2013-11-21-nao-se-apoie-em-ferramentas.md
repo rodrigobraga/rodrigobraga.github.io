@@ -16,4 +16,6 @@ Indivíduos e interações mais que processos e ferramentas
 
 Temos disponíveis inúmeras ferramentas que dão suporte ao desenvolvimento ágil, porém se mantivermos uma visão purista, talvez apenas o quadro (físico) seja realmente interessante ou até mesmo *vital*.
 
-Com times ou integrantes remotos, usar uma ferramenta torna-se inevitável, porém imagino que *essa ferramenta* não deva acrescentar qualquer burocracia, sob o risco de tornar o seu uso não natural.
+Com times ou integrantes remotos, usar uma ferramenta torna-se inevitável, porém imagino que *essa ferramenta* não deva acrescentar qualquer burocracia, sob o risco de tornar o seu uso não natural e consequentemente desinteressante.
+
+Eu particiei de *alguns* projetos cujo o desenvolvimento estava fundamentado no [modelo em cascata](http://pt.wikipedia.org/wiki/Modelo_em_cascata) e mais recenetmente de projetos onde a gestão do mesmo estava com o selo do [PMI](http://www.pmi.org); e de forma genérica era comum todas as pessoas se agarrarem justamente nos **processos** e **ferramentas** para justificar qualquer problema.
