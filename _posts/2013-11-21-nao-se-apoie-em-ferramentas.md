@@ -14,4 +14,7 @@ O trecho abaixo, retirado do [manifesto ágil](http://agilemanifesto.org/iso/ptb
 Indivíduos e interações mais que processos e ferramentas
 ```
 
+Temos disponíveis inúmeras ferramentas que dão suporte ao desenvolvimento ágil, porém se mantivermos uma visão purista, talvez apenas o quadro (físico) seja realmente interessante ou até mesmo *vital*.
+
+
 
