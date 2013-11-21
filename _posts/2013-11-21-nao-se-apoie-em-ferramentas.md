@@ -22,8 +22,6 @@ Eu particiei de *alguns* projetos cujo o desenvolvimento estava fundamentado no 
 
 Por motivos já discutidos á exaustão pela comunidade ao redor do mundo, projetos **falham**. Ao deparar-se com este fato, tentar se proteger alegando que usou todas as ferramentas disponíveis e seguiu a risca todos os processos, parece ser a saída comum.
 
-## lidando com a falha
+## não cometa esse erro
 
 O movimento ágil sugere *ciclos curtos* para mimizar as falhas ou até mesmo evitá-las; mas falhar é sempre plausível.
-
-##
