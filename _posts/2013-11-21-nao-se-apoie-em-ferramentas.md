@@ -42,5 +42,4 @@ Dia destes ouvi a frase abaixo:
 
 > as especificações estão no [read the docs](https://readthedocs.org/)!
 
-
-E foi isso que me motivou a compartilhar essa experiência; e é desesperador observar que de fato **ferramentas não tem vida**, mas ainda assim as pessoas parecem acreditar nisto e esperar que uma hora ou outra, elas de fato ganhem vida!
+E foi isso que me motivou a compartilhar essa experiência.
