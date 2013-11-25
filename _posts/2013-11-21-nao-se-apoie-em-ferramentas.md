@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Não se apoie em ferramentas"
-date: "2013-10-12 10:35:00"
+date: "2013-11-21 10:35:00"
 categories: [dev, agile]
 tags: [scrum, carreira]
 summary: cultura e valores são sempre mais importantes do que qualquer ferramenta.
