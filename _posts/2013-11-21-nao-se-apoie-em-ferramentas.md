@@ -48,4 +48,4 @@ Ao ser atingido por esse duro golpe do mundo corporativo, é desesperador observ
 
 Estranhamente as pessoas ainda usam as ferramentas como mecanismo de suporte e proteção para as suas próprias falhas, ignorando todo o potencial que elas poderiam proporcionar para criar soluções, alternativas.
 
-Eu teria escrito este texto antes, se o [markdown](http://daringfireball.net/projects/markdown/) já estivesse maduro o suficiente :smile:
+Eu teria escrito este texto antes, se o [markdown](http://daringfireball.net/projects/markdown/) já estivesse maduro o suficiente :)
