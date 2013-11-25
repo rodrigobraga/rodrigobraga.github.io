@@ -30,7 +30,7 @@ Mantenha-se firme.
 
 # em caso de falhas, a culpa é sempre sua
 
-Algumas ferramentas ganharam bastante notoriedade, como o [Trello](http://www.trello.com), mas existem inúmeras outras como o [Mingle](http://www.thoughtworks.com/products/mingle-agile-project-management) por exemplo, que valem a pena darmos uma olhada.
+Algumas ferramentas ganharam bastante notoriedade, como o [Trello](https://trello.com/rbraga/recommend), mas existem inúmeras outras como o [Mingle](http://www.thoughtworks.com/products/mingle-agile-project-management) por exemplo, que valem a pena darmos uma olhada.
 
 Mesmo com auxílio de uma ferramenta, se alguma coisa der errado ou o projeto falhar miseravelmente, a culpa será **sempre** sua.
 
