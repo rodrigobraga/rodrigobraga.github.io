@@ -2,6 +2,9 @@ lsi: false
 pygments: true
 comments: true
 markdown: redcarpet
+name: rodrigo braga
 url: "http://www.rbraga.com"
+description: tactical code
+author: Rodrigo Braga
 permalink: pretty
 exclude: ['node_modules', 'bower_components']
