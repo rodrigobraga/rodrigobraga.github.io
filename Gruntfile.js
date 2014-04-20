@@ -29,11 +29,16 @@
               stripBanners: true
             },
             scripts: {
-              src: ['assets/scripts/**/*.js'],
+              src: [
+                'bower_components/jquery/dist/jquery.min.js',
+                'bower_components/bootstrap/dist/js/bootstrap.min.js',
+                'assets/scripts/**/*.js'],
               dest: 'assets/scripts/all.js'
             },
             styles: {
-              src: ['assets/styles/**/*.css'],
+              src: [
+                'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                'assets/styles/**/*.css'],
               dest: 'assets/styles/all.css'
             }
           },

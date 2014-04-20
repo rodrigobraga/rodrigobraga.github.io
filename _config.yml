@@ -4,3 +4,4 @@ comments: true
 markdown: redcarpet
 url: "http://www.rbraga.com"
 permalink: pretty
+exclude: ['node_modules', 'bower_components']
