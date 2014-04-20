@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="main">
-	<div class="cbp_tmlabel">
-		{{ content }}
-		<a href="/" class="back">voltar</a>
-	</div>
+<div class="text-justify">
+
+    {{ page.date  | date_to_string }}
+
+    {{ content }}
 </div>
 
 {% if page.comments %}
@@ -28,5 +28,3 @@ layout: default
 <noscript>please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">disqus</span></a>
 {% endif %}
-    
-
