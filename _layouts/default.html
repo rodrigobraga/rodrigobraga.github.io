@@ -5,76 +5,39 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="personal blog" />
-		<meta name="keywords" content="software, agile, scrum, kanban, dcvs, git, test driven design, domain driven design, python, .net, azure, javascript" />
+		<meta name="keywords" content="software, agile, scrum, kanban, dcvs, git, test driven design, tdd, domain driven design, ddd, python, .net, azure, javascript, angularjs, grunt, docker, vagrant" />
 		<meta name="author" content="rbraga" />
 		<link rel="shortcut icon" href="/assets/images/favicon.ico">
 
 		<link rel="stylesheet" type="text/css" href="/assets/dist/default.min.css" />
 
-        <style type="text/css">
-            a {
-                color: #696969;
-            }
-
-                a.read-more {
-                    color:#fff;
-                }
-
-                a.back {
-                    color: #CECECE;
-                }
-
-            .container .clearfix a {
-                font-style:normal;
-                color:#CECECE;
-            }
-
-            img {
-                border: 0px;
-            }
-
-            .social {
-                text-align: right;
-            }
-
-            footer {
-                text-align: center;
-            }
-
-                footer a {
-                    color: #696969;
-                }
-
-            hr {
-                border-top: 1px dashed #fff;
-                border-bottom: 1px solid #F0F0F0;
-            }
-        </style>
-
-        <title>rbraga | {{ page.title }}</title>
+        <title>rbraga &middot; {{ page.title }}</title>
 	</head>
 	<body>
-		<div class="container">
-			<header class="clearfix">
-				<span><a href="/">rodrigo braga</a></span>
-				<h1>tactical code</h1>
-				<section class="social">
-					<a href="https://github.com/rodrigobraga"><img src="/assets/images/github-8-32.jpg" alt="github" title="GitHub" /></a>
-					<a href="http://www.linkedin.com/in/rbraga"><img src="/assets/images/linkedin-3-32.jpg" alt="linkedin" title="Linked In" /></a>
-					<a href="https://twitter.com/rodrigobra"><img src="/assets/images/twitter-3-32.jpg" alt="twitter" title="Twitter" /></a>
-					<a href="https://www.facebook.com/rbraga1"><img src="/assets/images/facebook-3-32.jpg" alt="facebook" title="Facebook" /></a>
-				</section>
-			</header>	
-			<div class="main">
-				{{ content }}
-			</div>
-		</div>
+        <div class="container text-center">
 
-        <hr />
+            <header>
+                <h1><a href="/">rodrigo <strong>braga</strong></a></h1>
+                <h3><em>tactical code</em></h3>
+            </header>
 
-        <footer>
-            <p>template adapted from <a href="http://tympanus.net/Blueprints/VerticalTimeline/">vertical timeline</a> &#8226; hosted by <a href="https://github.com/">github</a> &#8226; powered by <a href="http://jekyllrb.com/">jekyll</a></p>
-        </footer>
+            <hr />
+
+            {{ content }}
+        </div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/rodrigobraga"><img src="http://joshmosh.com/static/img/github.png" alt="github" title="GitHub"></a></li>
+                    <li><a href="http://www.linkedin.com/in/rbraga"><img src="http://s3-sa-east-1.amazonaws.com/globalcodesp/tdc/2014/icons/glyphicons_social_17_linked_in.png;jsessionid=ED5334B9EDE5844FA6D51D3D05DED7F9" alt="linkedin" title="Linked In"></a></li>
+                    <li><a href="https://twitter.com/rodrigobra"><img src="http://www.limpens.com/assets/glyphicons/png/glyphicons_391_twitter_t-c92a6398831c39df2ba92b231b7a98e2.png" alt="twitter" title="Twitter"></a></li>
+                    <li><a href="https://www.facebook.com/rbraga1"><img src="http://www.limpens.com/assets/glyphicons/png/glyphicons_390_facebook-c324b212552a4baee8eee29212dcee56.png" alt="facebook" title="Facebook"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <script type="text/javascript" src="/assets/dist/default.min.js"></script>
 
         <script type="text/javascript">
 
