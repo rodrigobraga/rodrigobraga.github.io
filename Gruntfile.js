@@ -122,13 +122,33 @@ module.exports = function(grunt) {
                     'assets/dist/twitter.png': 'assets/images/twitter.png'
                 }
             }
-        }
+        },
 
+        htmlmin: {
+            dist: {
+                options: {
+                    collapseBooleanAttributes: true,
+                    collapseWhitespace: true,
+                    removeAttributeQuotes: true,
+                    removeComments: true,
+                    removeEmptyAttributes: true,
+                    removeRedundantAttributes: true,
+                    removeScriptTypeAttributes: true,
+                    removeStyleLinkTypeAttributes: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: '_site',
+                    src: ['**/*.html'],
+                    dest: '_site'
+                }]
+            }
+        }
     });
 
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-contrib');
 
     // Default task.
-    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin', 'imagemin']);
+    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin', 'htmlmin', 'imagemin']);
 };
