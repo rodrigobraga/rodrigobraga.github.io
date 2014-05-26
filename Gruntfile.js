@@ -1,5 +1,7 @@
 'use strict';
 
+var mozjpeg = require('imagemin-mozjpeg');
+
 module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
@@ -94,15 +96,30 @@ module.exports = function(grunt) {
                 },
                 src: ['assets/**/*.css']
             }
-          },
+        },
 
-          cssmin: {
+        cssmin: {
             add_banner: {
                 options: {
                     banner: ''
                 },
                 files: {
                     'assets/dist/default.min.css': ['assets/styles/**/*.css']
+                }
+            },
+        },
+
+        imagemin: {
+            static: {
+                options: {
+                    optimizationLevel: 7,
+                    use: [mozjpeg()]
+                },
+                files: {
+                    'assets/dist/facebook.png': 'assets/images/facebook.png', // 'destination': 'source'
+                    'assets/dist/github.png': 'assets/images/github.png',
+                    'assets/dist/linkedin.png': 'assets/images/linkedin.png',
+                    'assets/dist/twitter.png': 'assets/images/twitter.png'
                 }
             }
         }
@@ -113,5 +130,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib');
 
     // Default task.
-    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin']);
+    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin', 'imagemin']);
 };
