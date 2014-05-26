@@ -1,119 +1,117 @@
-  'use strict';
+'use strict';
 
-  module.exports = function(grunt) {
-      // Project configuration.
-      grunt.initConfig({
-
-          // Metadata.
-          pkg: grunt.file.readJSON('package.json'),
-          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-          '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-          '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-          '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-          ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
+module.exports = function(grunt) {
+    // Project configuration.
+    grunt.initConfig({
+        // Metadata.
+        pkg: grunt.file.readJSON('package.json'),
+        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+            '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
+            '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
+            '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
+            ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
 
           // Before generating any new files, remove any previously-created files.
-          clean: {
+        clean: {
             dist: [
-              'assets/scripts/all.js',
-              'assets/styles/all.css',
-              'assets/dist/**/*.js',
-              'assets/dist/**/*.css',
+                'assets/scripts/all.js',
+                'assets/styles/all.css',
+                'assets/dist/**/*.js',
+                'assets/dist/**/*.css',
             ]
-          },
+        },
 
-          // Task configuration.
-          concat: {
+        // Task configuration.
+        concat: {
             options: {
-              banner: '<%= banner %>',
-              stripBanners: true
+                stripBanners: true
             },
             scripts: {
-              src: [
-                'bower_components/jquery/dist/jquery.min.js',
-                'bower_components/bootstrap/dist/js/bootstrap.min.js',
-                'assets/scripts/**/*.js'],
-              dest: 'assets/scripts/all.js'
+                src: [
+                  'bower_components/jquery/dist/jquery.min.js',
+                  'bower_components/bootstrap/dist/js/bootstrap.min.js',
+                  'assets/scripts/**/*.js'],
+                dest: 'assets/scripts/all.js'
             },
             styles: {
-              src: [
-                'bower_components/bootstrap/dist/css/bootstrap.min.css',
-                'assets/styles/**/*.css'],
-              dest: 'assets/styles/all.css'
+                src: [
+                  'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                  'assets/styles/**/*.css'],
+                dest: 'assets/styles/all.css'
             }
-          },
+        },
 
-          uglify: {
+        uglify: {
             options: {
-              banner: '<%= banner %>'
+                preserveComments: false
             },
             scripts: {
-              src: '<%= concat.scripts.dest %>',
-              dest: 'assets/dist/default.min.js'
+                src: '<%= concat.scripts.dest %>',
+                dest: 'assets/dist/default.min.js'
             }
           },
 
-          jshint: {
+        jshint: {
             options: {
-              jshintrc: '.jshintrc'
+                jshintrc: '.jshintrc'
             },
             gruntfile: {
-              src: 'Gruntfile.js'
+                src: 'Gruntfile.js'
             },
             assets: {
-              src: ['assets/scripts/**/*.js']
+                src: ['assets/scripts/**/*.js']
             },
-          },
+        },
 
-          watch: {
+        watch: {
             gruntfile: {
-              files: '<%= jshint.gruntfile.src %>',
-              tasks: ['jshint:gruntfile']
+                files: '<%= jshint.gruntfile.src %>',
+                tasks: ['jshint:gruntfile']
             },
             lib: {
-              files: '<%= jshint.lib.src %>',
-              tasks: ['jshint:lib', 'nodeunit']
+                files: '<%= jshint.lib.src %>',
+                tasks: ['jshint:lib', 'nodeunit']
             },
             test: {
-              files: '<%= jshint.test.src %>',
-              tasks: ['jshint:test', 'nodeunit']
+                files: '<%= jshint.test.src %>',
+                tasks: ['jshint:test', 'nodeunit']
             },
-          },
+        },
 
-          csslint: {
+        csslint: {
             options: {
-              csslintrc: '.csslintrc'
+                csslintrc: '.csslintrc'
             },
             strict: {
-              options: {
-                import: 2
-              },
-              src: ['assets/**/*.css']
+                options: {
+                    import: 2
+                },
+                src: ['assets/**/*.css']
             },
             lax: {
-              options: {
-                import: false
-              },
-              src: ['assets/**/*.css']
+                options: {
+                  import: false
+                },
+                src: ['assets/**/*.css']
             }
           },
 
           cssmin: {
             add_banner: {
-              options: {
-                banner: '/* minified css file */'
-              },
-              files: {
-                'assets/dist/default.min.css': ['assets/styles/**/*.css']
-              }
+                options: {
+                    banner: ''
+                },
+                files: {
+                    'assets/dist/default.min.css': ['assets/styles/**/*.css']
+                }
             }
-          }
+        }
 
-      });
+    });
 
-      // These plugins provide necessary tasks.
-      grunt.loadNpmTasks('grunt-contrib');
+    // These plugins provide necessary tasks.
+    grunt.loadNpmTasks('grunt-contrib');
 
-      // Default task.
-      grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin']);
-    };
+    // Default task.
+    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'cssmin']);
+};
