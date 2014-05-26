@@ -20,7 +20,6 @@
     "url": "https://github.com/rodrigobraga/rodrigobraga.github.io/issues"
   },
   "devDependencies": {
-    "bower": "0.10.0",
     "grunt": "^0.4.4",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-uglify": "^0.4.0",
@@ -31,5 +30,8 @@
     "grunt-contrib-imagemin": "^0.6.1",
     "grunt-contrib-htmlmin": "^0.2.0",
     "imagemin-mozjpeg": "^0.1.2"
+  },
+  "dependencies": {
+    "bower": "^1.3.3"
   }
 }
