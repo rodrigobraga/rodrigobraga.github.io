@@ -1,8 +1,8 @@
 {
   "name": "rodrigobraga.github.io",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "jekyll template for my blog",
-  "main": "index.html",
+  "main": "_site/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
