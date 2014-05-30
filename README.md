@@ -1,1 +1,1 @@
-# jekyll template for my blog  [![devDependency Status](https://david-dm.org/rodrigobraga/rodrigobraga.github.io.png)](https://david-dm.org/rodrigobraga/rodrigobraga.github.io#info=devDependencies)
+# Template for my blog  [![devDependency Status](https://david-dm.org/rodrigobraga/rodrigobraga.github.io.png)](https://david-dm.org/rodrigobraga/rodrigobraga.github.io#info=devDependencies)
