@@ -19,5 +19,5 @@ RUN git config --global user.name "Rodrigo Braga"
 
 ADD . /home/repos/rodrigobraga.github.io
 
-EXPOSE 8000
+EXPOSE 4000
 CMD ["/bin/sh", "-e", "/usr/local/bin/run"]
