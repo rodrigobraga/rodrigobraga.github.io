@@ -1,7 +1,7 @@
-FROM ubuntu:13.10
+FROM ubuntu:latest
 MAINTAINER Rodrigo Braga "rodrigobraga@msn.com"
 RUN apt-get -qq update
-RUN apt-get install -y g++ make curl git vim vim-scripts ruby1.9.1 ruby1.9.1-dev python python-dev python-software-properties software-properties-common
+RUN apt-get install -y g++ make curl ruby1.9.1 ruby1.9.1-dev python python-dev python-software-properties software-properties-common
 
 RUN locale-gen en_US.UTF-8
 
@@ -13,9 +13,6 @@ RUN gem install rubygems-update
 RUN update_rubygems 
 RUN gem install rdoc -f
 RUN gem install jekyll
-
-RUN git config --global user.email "rodrigobraga@msn.com"
-RUN git config --global user.name "Rodrigo Braga"
 
 ADD . /home/repos/rodrigobraga.github.io
 
