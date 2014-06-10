@@ -1,5 +1,5 @@
 lsi: false
-pygments: true
+highlighter: pygments
 comments: true
 markdown: redcarpet
 name: rodrigo braga
