@@ -14,8 +14,10 @@ RUN update_rubygems
 RUN gem install rdoc -f
 RUN gem install jekyll
 
-#ADD . /opt/repos/rodrigobraga.github.io
+VOLUME ["/opt/app"]
+
+WORKDIR /opt/app
 
 EXPOSE 4000
 
-CMD cd /home/vagrant/repos/rodrigobraga.github.io && jekyll serve --watch --port 4000
+CMD ["jekyll", "serve", "--watch", "--port", "4000"]
