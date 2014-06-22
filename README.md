@@ -16,7 +16,7 @@ With a tag for easier reuse
 
 Running the container
 
-    $ sudo docker run -d -p 4000:4000 -v /home/vagrant:/home/vagrant rbraga/blog
+    $ sudo docker run -d -p 4000:4000 -v /home/vagrant/repos/rodrigobraga.github.io/:/opt/app rbraga/blog
 
 Now go to `<your ip>:4000` in your browser
 
