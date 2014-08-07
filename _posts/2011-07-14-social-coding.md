@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Social Coding"
+title: Social Coding
 date: "2011-07-14 12:00:00"
 categories: [carreira, dev]
 tags: [webinsider]
@@ -41,4 +41,4 @@ Eu ainda estou buscando as minhas, de qualquer maneira a festa ocorre nos seguin
 
 Atualmente estou lendo mais do que escrevendo, mas espero mudar isso em breve!
 
-> [_O desenvolvedor certificado em Social Coding_](http://webinsider.com.br/2011/07/12/o-desenvolvedor-certificado-em-social-coding/) foi escrito originalmente para o portal [webinsider](http://webinsider.com.br/)
+> [_O desenvolvedor certificado em Social Coding_](http://webinsider.com.br/2011/07/12/o-desenvolvedor-certificado-em-social-coding/) foi escrito originalmente para o portal [webinsider](http://webinsider.com.br/2011/07/12/o-desenvolvedor-certificado-em-social-coding/)
