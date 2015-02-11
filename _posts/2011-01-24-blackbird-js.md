@@ -26,11 +26,11 @@ Pensando ainda apenas na depuração em si, uma ferramenta bastante útil e muit
 
 O Blackbird permite acompanharmos através de um painel uma série de mensagens em relação à execução da aplicação, o seu uso é muito simples e prático, o exemplo é auto-explicativo e outras informações estão no [site oficial](http://www.gscottolson.com/blackbirdjs).
 
-```
+{% highlight javascript %}
 log.debug('this is a debug message');
 log.info('this is an info message');
 log.warn('this is a warning message');
 log.error('this is an error message');
-```
+{% endhighlight %}
 
 É mais um dos casos onde uma ferramenta simples, pode acabar agregando bastante!

@@ -34,10 +34,11 @@ Vale! É comum as pessoas se preparem de forma bastante sólida visando uma cert
 E onde conseguir a sua certificação?
 
 Eu ainda estou buscando as minhas, de qualquer maneira a festa ocorre nos seguintes locais:
-* [Github](https://github.com/rodrigobraga)
-* [Bitbucket](https://bitbucket.org/rodrigobraga)
-* [Codeplex](https://www.codeplex.com/site/users/view/rodrigobraga)
-* source forge
+ 
+ - [Github](https://github.com/rodrigobraga)
+ - [Bitbucket](https://bitbucket.org/rodrigobraga)
+ - [Codeplex](https://www.codeplex.com/site/users/view/rodrigobraga)
+ - _source forge_
 
 Atualmente estou lendo mais do que escrevendo, mas espero mudar isso em breve!
 

@@ -3,11 +3,12 @@ layout: default
 ---
 
 <div class="text-justify">
-
-    {{ page.date  | date_to_string }}
+    {{ page.date  | date_to_long_string }}
 
     {{ content }}
 </div>
+
+<br />
 
 {% if page.comments %}
 
