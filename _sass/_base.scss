@@ -17,7 +17,6 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -33,10 +32,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-a:hover {
-    color: gray;
-    text-decoration: none;
-}
 
 
 /**
@@ -100,11 +95,10 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: $grey-color-dark;
         text-decoration: none;
     }
 }
-
 
 
 /**
@@ -218,6 +212,6 @@ pre {
 
     /* RGBa with 0.6 opacity */
     /*background: rgba(0, 0, 0, 0.1);*/
-
+    background-color: $background-color;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1),  rgba(0, 0, 0, 0));
 }
