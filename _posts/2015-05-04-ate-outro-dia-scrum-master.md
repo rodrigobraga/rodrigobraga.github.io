@@ -10,7 +10,7 @@ comments: true
 
 # Prelúdio
 
-Alguns anos atrás, após experiências frustradas com _waterfall_ ou simplesmente nenhum outro modelo, eu embarcava na Agilidade; a porta de entrada foi o Scrum, e foi bastante reconfortante perceber que adaptar-se ao caos era efetivamente um caminho.
+Alguns anos atrás, após experiências frustradas com _waterfall_ ou simplesmente nenhum outro modelo, eu embarcava na Agilidade; a porta de entrada foi o Scrum, e foi bastante reconfortante perceber que "adaptar-se ao caos" era efetivamente um caminho.
 
 # Scrum
 
