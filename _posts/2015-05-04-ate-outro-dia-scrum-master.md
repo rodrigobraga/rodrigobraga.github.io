@@ -4,7 +4,7 @@ title: "Até outro dia Scrum Master"
 date: "2015-05-04 20:20:45"
 categories: [agile, scrum]
 tags: [carreira]
-summary: Parecer improvável, mas tornar-se desnecessário as vezes é um objetivo.
+summary: Parece improvável, mas tornar-se desnecessário as vezes é um objetivo.
 comments: true
 ---
 
