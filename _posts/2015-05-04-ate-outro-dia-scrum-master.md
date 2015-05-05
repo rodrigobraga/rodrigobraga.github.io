@@ -46,6 +46,8 @@ Não! Na verdade o que vimos é que a jornada do Scrum Master pode eventualmente
 
 Novas equipes em crise, problemas diferentes, soluções diferentes; esses são sem dúvida, alguns dos pontos que vão preencher o futuro do Scrum Master após o _Nirvana_
 
+---
+
 ¹ _Estabilidade_ é na verdade uma percepção falsa de que nada irá mudar em alguns instantes.
 
-² Este texto é um breve relato sobre a minha experiência com Agilidade na [ISPM](http://www.ispm.com) e com o sujeito que até alguns anos atrás era o nosso [Scrum Master](https://br.linkedin.com/in/lcmattoso).
+² Este texto é um breve relato sobre a minha experiência com Agilidade na [ISPM](http://www.ispm.com) e com o sujeito que até outro dia era o nosso [Scrum Master](https://br.linkedin.com/in/lcmattoso).
