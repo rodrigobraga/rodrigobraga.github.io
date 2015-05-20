@@ -4,6 +4,8 @@ email: rodrigobraga@msn.com
 description: algumas anotações sobre o universo
 baseurl: ""
 url: "http://rodrigobraga.github.io"
+sass:
+    style: :compressed
 
 # Build settings
 markdown: kramdown

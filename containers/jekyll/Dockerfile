@@ -5,14 +5,14 @@ MAINTAINER Rodrigo Braga "rodrigobraga@msn.com"
 ENV DEBIAN_FRONTEND noninteractive
 ENV INITRD No
 
-RUN apt-get update -y
-
-RUN apt-get install apt-utils -y
-RUN apt-get install nodejs -y
+RUN apt-get update && apt-get install -y \
+    apt-utils \
+    nodejs
 
 # install Jekyll, dependencies and extras
-RUN gem install jekyll
-RUN gem install github-pages
+RUN gem install \
+    jekyll \
+    github-pages
 
 VOLUME ["/opt/app"]
 
