@@ -4,8 +4,13 @@ email: rodrigobraga@msn.com
 description: algumas anotações sobre o universo
 baseurl: ""
 url: "http://rodrigobraga.github.io"
+timezone: America/Sao_Paulo
+author: Rodrigo Braga
 sass:
     style: :compressed
 
 # Build settings
 markdown: kramdown
+
+gems:
+    - jekyll-feed
